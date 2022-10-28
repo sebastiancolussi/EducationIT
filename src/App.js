@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ComponenteTituloH1 from './Clase2/ComponenteTituloH1'
+import ListaSuper from './Clase2/ListaSuper'
+import TituloConMuchosEstilos from './Clase2/TituloConMuchosEstilos';
+import TituloConMuchosEstilos2 from './Clase2/TituloConMuchosEstilos2';
+import TituloConParrafo from './Clase2/TituloConParrafo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ComponenteTituloH1 />
+      <ListaSuper />
+      <TituloConParrafo />
+      <TituloConMuchosEstilos />
+      <TituloConMuchosEstilos2 />
+
     </div>
   );
 }
