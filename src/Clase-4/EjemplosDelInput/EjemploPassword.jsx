@@ -8,7 +8,7 @@ import {useState} from 'react'
 function EjemploPassword() {
   const [password, setPassword] = useState("");
   const [longitudRequerida, setLongitudRequerida]=useState(false);
-  const []
+  // const []
 
   // Guardas el estado del ingreso
 
